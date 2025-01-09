@@ -1,0 +1,22 @@
+site_name: demo
+site_description: '这是一个示例站点'
+site_author: '你的名字'
+
+theme: material
+nav:
+  - 首页: index.md
+  - 关于: about.md
+  - 文档:
+      - 入门: getting-started.md
+      - 配置: configuration.md
+  
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+
